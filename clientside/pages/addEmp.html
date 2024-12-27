@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Employee</title>
+        <link rel="stylesheet" href="../css/addEmp.css">
+    </head>
+    <body>
+        <div class="container">
+            <div><h1> Add employee </h1></div>
+            <div class="imgform">
+                <div><img src="../image/icons8-user-90.png" alt></div>
+                <div>
+                    <form action="/submit" method="POST">
+                        <div class="labin">
+                            <label for>Employ Id :</label>
+                            <input type="text" placeholder="empid" name="empId"
+                                id="empId">
+                        </div>
+                        <br>
+                        <div class="labin">
+                            <label for>Name :</label>
+                            <input type="text" placeholder="name" name="name"
+                                id="name">
+                        </div>
+                        <br>
+                        <div class="labin">
+                            <label for>Designation :</label>
+                            <select name="des" id="des">
+                                <option value>Select </option>
+                                <option value="MERN">MERN</option>
+                                <option value="MEAN">MEAN</option>
+                                <option value="PYTHON">PYTHON</option>
+                                <option value="FLUTTER">FLUTTER</option>
+                                <option value="AI">AI</option>
+                                <option value="DS">DS</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="labin">
+                            <label for>Salary :</label>
+                            <input type="text" placeholder="salary"
+                                name="salary"
+                                id="salary">
+                        </div>
+                        <br>
+                        <div class="labin">
+                            <label for>Experience :</label>
+                            <input type="text" placeholder="exp" name="exp"
+                                id="exp">
+                        </div>
+                        <br>
+                        <div class="labin">
+                            <label for>Email :</label>
+                            <input type="text" placeholder="email" name="email"
+                                id="email">
+                        </div>
+                        <br>
+                        <div class="labin">
+                            <label for="phone">Phone :</label>
+                            <input type="text" placeholder="phone" name="phone"
+                                id="phone">
+                        </div>
+                        <br> <br>
+                        <div class="frmbtn">
+                            <button type="submit">submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/addEmp.js"></script>
+    </body>
+</html>

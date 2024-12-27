@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edit Employee</title>
+        <link rel="stylesheet" href="../css/editEmp.css">
+    </head>
+    <body>
+        <div id="edit-employee">
+            <h2>Edit Employee Details</h2>
+            <div class="cont">
+                <div><img src="../image/icons8-user-90.png" alt></div>
+                <div class="formout">
+                    <form id="edit-form">
+                        <div class="form">
+                            <div class="formin">
+                                <label for>Employe ID :</label>
+                                <input type="text" placeholder="empId"
+                                    name="empId"
+                                    id="empId" readonly>
+                            </div>
+                            <br>
+                            <div class="formin">
+                                <label for>Name :</label>
+                                <input type="text" placeholder="Name"
+                                    name="name"
+                                    id="name">
+                            </div>
+                            <br>
+                            <div class="formin">
+                                <label for>Designstion :</label>
+                                <input type="text" placeholder="Designstion"
+                                    name="des"
+                                    id="des">
+                            </div>
+                            <br>
+                            <div class="formin">
+                                <label for>Salary :</label>
+                                <input type="text" placeholder="Salary"
+                                    name="salary"
+                                    id="salary">
+                            </div>
+                            <br>
+                            <div class="formin">
+                                <label for>Experience :</label>
+                                <input type="text" placeholder="Experience"
+                                    name="exp"
+                                    id="exp">
+                            </div>
+                            <br>
+                            <div class="formin">
+                                <label for>Email :</label>
+                                <input type="email" placeholder="Email"
+                                    name="email"
+                                    id="email">
+                            </div>
+                            <br>
+                            <div class="formin">
+                                <label for>Phone :</label>
+                                <input type="text" placeholder="Phone"
+                                    name="phone"
+                                    id="phone">
+                            </div>
+                            <br> <br>
+                            <div class="formbtn">
+                                <button class="update" type="submit">Update Employee</button>
+                                <button class="back" onclick="goBack()">Back</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/editEmp.js"></script>
+    </body>
+</html>

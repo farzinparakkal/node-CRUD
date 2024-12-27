@@ -1,0 +1,45 @@
+.imgform{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form{
+    margin-top: 60px;
+    width: 500px;
+    height: 500px;
+    /* background-color: blueviolet;   */
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.labin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    margin-top: 40px;
+    
+}
+.labin input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.labin select{
+    width: 305px;
+    height: 35px;
+    border-radius: 5px;
+}
+.frmbtn{
+    text-align: center;
+}
+.frmbtn button{
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
